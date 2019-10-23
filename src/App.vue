@@ -1,5 +1,5 @@
 <template>
-    <div id="app"> 
+    <div id="app">
        <yummyHeader></yummyHeader>
        <yummyNav></yummyNav>
        <yummyFooter></yummyFooter>

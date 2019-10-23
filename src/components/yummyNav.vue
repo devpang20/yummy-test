@@ -1,19 +1,19 @@
 <template>
      <nav class="menu-nav">
         <ul>
-            <li class="item"><a href="">한식</a></li>
-            <li class="item"><a href="">일식</a></li>    
-            <li class="item"><a href="">중식</a></li>
+            <li class="item"> <router-rink to="/list">메뉴</router-rink></li>
+            <li class="item"> <router-rink>메뉴</router-rink></li>
+            <li class="item"> <router-rink>메뉴</router-rink></li>
         </ul>
         <ul>
-            <li class="item"><a href="">분식</a></li>
-            <li class="item"><a href="">동남아</a></li>    
-            <li class="item"><a href="">퓨전</a></li>
+           <li class="item"> <router-rink>메뉴</router-rink></li>
+           <li class="item"> <router-rink>메뉴</router-rink></li>
+           <li class="item"> <router-rink>메뉴</router-rink></li> 
         </ul>
         <ul>
-            <li class="item"><a href="">치킨</a></li>
-            <li class="item"><a href="">피자</a></li>    
-            <li class="item"><a href="">족발</a></li>
+          <li class="item"> <router-rink>메뉴</router-rink></li>
+           <li class="item"> <router-rink>메뉴</router-rink></li>
+           <li class="item"> <router-rink>메뉴</router-rink></li>
         </ul>
       </nav> 
 </template>

@@ -1,5 +1,7 @@
 <template>
-  
+    <div>
+        write
+    </div>
 </template>
 
 <script>
