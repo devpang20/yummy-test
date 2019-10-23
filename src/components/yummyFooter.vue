@@ -1,6 +1,10 @@
 <template>
     <footer>
-        라이센스
+      <div class="foot">
+        <p class="copy">
+          ©undefcat, sik2
+        </p>
+      </div>
     </footer>
 </template>
 
@@ -18,5 +22,9 @@ export default {
   }
   footer{
     text-align: center;
+  }
+  .foot {
+    height: 100px;
+    background-color:gray;
   }
 </style>

@@ -1,6 +1,8 @@
 <template>
     <header>
-        기능 이름
+        <div class="head">
+          <p class="hc">yummy</p>
+        </div>
     </header>
 </template>
 
@@ -16,7 +18,18 @@ export default {
     padding:0;
     list-style:none;
   }
-  header{
+  header {
     text-align: center;
+    background-color: gray;
   }
+  .head {
+       display:inline-block; 
+       width: 280px;
+       height: 100px;
+       color: white;
+  }
+  .hc {
+       margin: 0 auto;
+  }
+ 
 </style>

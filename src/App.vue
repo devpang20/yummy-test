@@ -22,5 +22,7 @@ export default {
 </script>
 
 <style>
-
+  #app{
+    margin-top : 300px;
+  }
 </style>
